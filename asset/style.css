@@ -7,3 +7,6 @@
 .menu-bar li{
     position: relative;
 }
+.submenu{
+    display: none;
+}
