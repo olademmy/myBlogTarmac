@@ -1,5 +1,49 @@
-.container{background-color: brown;}
-.menu-bar{
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Overpass', sans-serif;
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ubuntu-text {
+  font-family: 'Ubuntu', sans-serif;
+}
+.headContainer{background-color: brown;
+padding: 50px 120px;
+justify-content: center;
+}
+header{
+    display: flex;
+    justify-content: flex-start;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+a img {
+  margin-left: 8px;
+} 
+/*header img {
+  height: 40px; */     /* or your preferred height */
+ /* width: auto;       /* maintain aspect ratio */
+  /*align-self: center; /* vertically center in flex container */
+  /*padding: 5px 20px;
+}*/
+nav{display: flex;
+  width: 1200px;
+  justify-content: space-between;
+  padding-top: 12px;
+  padding-left: 30px;
+}
+.menu-bar{padding-left: 40px;
+  padding-top: 0px;
     list-style: none;
     display: flex;
     gap: 20px;
@@ -8,7 +52,7 @@
     position: relative;
 }
 .submenu{
-  /*display: none;*/
+  display: none;
   position: absolute;
   left: 0;
   top: 100%;
@@ -25,3 +69,4 @@
   color: #333;
   text-decoration: none;
 }
+div a{padding:0 30px;}
