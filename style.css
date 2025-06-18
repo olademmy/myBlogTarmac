@@ -3,18 +3,24 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
+body { 
   font-family: 'Overpass', sans-serif;
   width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
+body section {
+   background-image: url('images/bg-pattern-intro-mobile.svg');
+   background-size: cover;
+}
 
 .ubuntu-text {
   font-family: 'Ubuntu', sans-serif;
 }
-.headContainer{background-color: brown;
-padding: 50px 120px;
+.headContainer{
+background-image: url('images/bg-pattern-intro-desktop.svg');
+background-size: cover;
+/*padding: 50px 120px;*/
 justify-content: center;
 }
 header{
