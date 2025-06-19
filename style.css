@@ -9,18 +9,17 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-body section {
-   background-image: url('images/bg-pattern-intro-mobile.svg');
-   background-size: cover;
-}
-
 .ubuntu-text {
   font-family: 'Ubuntu', sans-serif;
 }
 .headContainer{
-background-image: url('images/bg-pattern-intro-desktop.svg');
-background-size: cover;
-/*padding: 50px 120px;*/
+height: 400px;
+background-color: hsl(356, 100%, 66%);
+background-image: url('images/bg-pattern-intro-desktop.svg') ;
+background-size: 2500px 2500px; /* Adjust size as needed */
+background-position: center;    /* Center the image */
+background-repeat: no-repeat;
+padding: 50px 120px;
 justify-content: center;
 }
 header{
